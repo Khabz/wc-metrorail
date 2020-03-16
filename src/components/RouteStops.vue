@@ -14,7 +14,6 @@
 <script>
 
 import L from 'leaflet';
-//import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 import 'leaflet/dist/leaflet.css';
 
 export default {
@@ -34,7 +33,7 @@ export default {
     methods: {
         latLng: function(lat, lng) {
             return L.latLng(lat, lng)
-        }
+        },
     },
 }
 </script>
